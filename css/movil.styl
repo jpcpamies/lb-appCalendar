@@ -624,8 +624,6 @@ section
 					content '\e602'
 					font-family icono
 					font-size .85em
-				&:hover
-					color rgba(white,.8)
 			.mapa
 				// color rgba(#283148,1)
 				font-size 1.15em
@@ -633,16 +631,16 @@ section
 					content '\e607'
 					font-family icono
 					font-size .7em
-				&:hover
-					color rgba(white,.8)
 			.menuResizer
 				font-weight 400
-				&:hover
-					color rgba(white,.8)
-				.grande
-					font-size .6em
-				.menor
-					font-size 1em
+				.aumentar
+					&:after
+						content 'A'
+						font-size 1em
+				.disminuir
+					&:after
+						content 'A'
+						font-size .6em
 	.resizer
 		background rgba(black,.2)
 		border-top 1px solid rgba(#283148,.4)
@@ -650,18 +648,17 @@ section
 		color rgba(white,.7)
 		padding .4em 0
 		.botonResizer
-			// color rgba(#283148,14
 			display inline-block
 			font-weight 400
 			text-align center
 			width 49%
-			.aumentar
+			.disminuir
 				border-right 1px solid rgba(#283148,.4)
 				box-shadow 1px 0px 0px rgba(white,.1)
 				&:after
 					content 'A'
 					font-size .7em
-			.disminuir
+			.aumentar
 				&:after
 					content 'A'
 					font-size 1.2em
