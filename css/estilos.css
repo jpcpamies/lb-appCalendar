@@ -1445,15 +1445,19 @@ section .anarInici .boto:after{content:'\e604';font-family:icono;font-size:1.5em
 /* line 3 : /Users/jordiimac/Documents/appCalendar/css/bp2.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp2\.styl}line{font-family:\000033}}
-header .bgHeader{background:#008000}
+
+/* line 4 : /Users/jordiimac/Documents/appCalendar/css/bp2.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp2\.styl}line{font-family:\000034}}
+header .bgHeader .montsia{background-size:100% 180px;top:255px}
 }
 /* line 73 : /Users/jordiimac/Documents/appCalendar/css/estilos.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/estilos\.styl}line{font-family:\0000373}}
 @media screen and (min-width: 760px){
-/* line 5 : /Users/jordiimac/Documents/appCalendar/css/bp3.styl */
+/* line 7 : /Users/jordiimac/Documents/appCalendar/css/bp3.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp3\.styl}line{font-family:\000035}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp3\.styl}line{font-family:\000037}}
 
 /* line 1 : /Users/jordiimac/Documents/appCalendar/css/bp3.styl */
 
@@ -1462,7 +1466,11 @@ header .bgHeader{background:#008000}
 /* line 2 : /Users/jordiimac/Documents/appCalendar/css/bp3.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp3\.styl}line{font-family:\000032}}
-header .bgHeader{background:#f00}
+
+/* line 3 : /Users/jordiimac/Documents/appCalendar/css/bp3.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp3\.styl}line{font-family:\000033}}
+header .bgHeader .montsia{background-size:100% 270px;top:160px}
 }
 /* line 76 : /Users/jordiimac/Documents/appCalendar/css/estilos.styl */
 
@@ -1479,5 +1487,9 @@ header .bgHeader{background:#f00}
 /* line 3 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\000033}}
-header .bgHeader{background:#ffa500}
+
+/* line 4 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\000034}}
+header .bgHeader .montsia{background-size:100% 380px;height:380px;top:60px}
 }
