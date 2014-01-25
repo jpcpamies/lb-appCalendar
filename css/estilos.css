@@ -1542,7 +1542,7 @@ header .bgHeader .montsia{background-size:100% 380px;height:380px;top:60px}
 /* line 16 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000316}}
-.core .botones .botonMenu .mapa,.menu .botones .botonMenu .mapa{background:#5a6171;border-radius:50%;bottom:1em;line-height:2em;font-size:1.15em;height:50px;position:absolute;right:-5em;text-align:center;width:50px;}
+.core .botones .botonMenu .mapa,.menu .botones .botonMenu .mapa{background:#5a6171;border-radius:50%;bottom:10px;line-height:2em;font-size:1.15em;height:50px;position:fixed;right:10px;text-align:center;width:50px;}
 
 /* line 27 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
@@ -1596,19 +1596,19 @@ header .bgHeader .montsia{background-size:100% 380px;height:380px;top:60px}
 /* line 56 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000356}}
-.core .social,.menu .social{background:rgba(0,0,0,0.2);border-top:none;left:-190px;position:absolute;top:-120px;height:120px;width:200px;}
-
-/* line 64 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000364}}
+.core .social,.menu .social{background:rgba(90,97,113,0.8);border-radius:4px;border-top:none;left:10px;position:fixed;bottom:10px;height:120px;width:200px;}
 
 /* line 65 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000365}}
+
+/* line 66 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000366}}
 .core .social .botonSocial .facebook,.menu .social .botonSocial .facebook{position:relative;top:.5em;left:1.5em}
 
-/* line 70 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+/* line 71 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000370}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000371}}
 .core .social .botonSocial .twitter,.menu .social .botonSocial .twitter{position:relative;top:2.5em;left:-5em}
 }
