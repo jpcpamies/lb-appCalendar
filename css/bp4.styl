@@ -5,3 +5,62 @@ header
 			background-size 100% 380px
 			height 380px
 			top 60px
+.core
+.menu
+	background none
+	.botones
+		.botonMenu
+			.compartir
+			.menuResizer
+				display none
+			.mapa
+				background secundario
+				border-radius 50%
+				bottom 1em
+				line-height 2em
+				font-size 1.15em
+				height 50px
+				position absolute
+				right -5em
+				text-align center
+				width 50px
+				&:after
+					content '\e607'
+					font-family icono
+					font-size .7em
+				&:active
+					color rgba(white,.3)
+	.resizer
+		background none
+		border-top none
+		box-shadow none
+		color rgba(white,.7)
+		padding 0
+		.botonResizer
+			font-weight 400
+			text-align center
+			.disminuir
+				border-right 1px solid rgba(#283148,.4)
+				box-shadow 1px 0px 0px rgba(white,.1)
+				&:after
+					content 'A'
+					font-size .7em
+				&:active
+					color rgba(white,.3)
+			.aumentar
+				&:after
+					content 'A'
+					font-size 1.2em
+				&:active
+						color rgba(white,.3)
+	.social
+		background rgba(black,.2)
+		border-top 1px solid rgba(#283148,.45)
+		padding .8em 0 .6em 0
+		.botonSocial
+			display inline-block
+			font-weight 400
+			text-align center
+			width 49%
+			.twitter
+				margin 0 0 0 1.5em
