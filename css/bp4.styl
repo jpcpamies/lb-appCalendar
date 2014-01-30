@@ -9,6 +9,8 @@
 	background none
 	.botones
 		.botonMenu
+			a
+				text-decoration none
 			.compartir
 			.menuResizer
 				display none
@@ -16,63 +18,22 @@
 				background secundario
 				border-radius 50%
 				bottom 20px
-				color rgba(white,.7)
+				color rgba(white,1)
 				font-size 1.15em
 				height 50px
-				line-height 2em
+				line-height 2.15em
 				position fixed
 				right 20px
 				text-align center
 				width 50px
 				&:after
-					content '\e607'
+					content '\e606'
 					font-family icono
-					font-size .7em
+					font-size .9em
 				&:active
 					color rgba(white,.3)
 	.resizer
-		background none
-		border-top none
-		box-shadow none
-		color rgba(white,.7)
-		padding 0
-		.botonResizer
-			font-weight 300
-			text-align center
-			.disminuir
-				border-right none
-				box-shadow none
-				background #1574ea
-				border-radius 50%
-				bottom 160px
-				line-height 2em
-				font-size 1.15em
-				height 50px
-				position fixed
-				right 20px
-				text-align center
-				width 50px
-				&:after
-					content 'A'
-					font-size .7em
-				&:active
-					color rgba(white,.3)
-			.aumentar
-				background #1574ea
-				border-radius 50%
-				bottom 90px
-				line-height 2em
-				font-size 1.15em
-				height 50px
-				position fixed
-				right 20px
-				text-align center
-				width 50px
-				&:after
-					content 'A'
-					font-size 1.2em
-				&:active
-						color rgba(white,.3)
+		display none
 	.social
 		background none
 		border-radius 4px
