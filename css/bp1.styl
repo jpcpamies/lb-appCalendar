@@ -191,8 +191,7 @@ section
 		-webkit-animation animacionLlista .3s 1
 		padding .8em 0 1em 0
 		.event
-			
-			margin  10px 10px
+			margin 25px 10px
 			.detallEvent
 				background rgba(white,1)
 				border-radius 15px 0 0 0 
@@ -201,6 +200,8 @@ section
 				color rgba(black,.7)
 				display block
 				height 30px
+				position relative
+				z-index 2
 				.quan
 					.data
 						p
@@ -223,14 +224,14 @@ section
 								content 'h'
 			.Event
 				background rgba(white,.8)
-				// border-radius 0 0 10px 10px
-				box-shadow 0 0 10px rgba(black,.3)
+				// box-shadow 0 0 10px rgba(black,.3)
 				color rgba(black,.8)
 				display block
 				font-size .9em
 				font-weight 400
-				padding .7em .5em .8em 1em
+				padding .7em .5em 2em 1em
 				position relative
+				z-index 3
 				.detall
 					color rgba(secundario,1)
 					display none
@@ -238,23 +239,16 @@ section
 					font-size .8em
 					font-weight 300
 					margin 1em 0 1em 0 
-					p
-						&:after
-							display none
-				.expandir
-					position absolute 
-					right .2em
-					top .7em
-					transform rotateZ(90deg)
-					-ms-transform rotateZ(90deg)
-					-webkit-transform rotateZ(90deg)
+					// p
+					// 	&:after
+					// 		display none
 					&:after
 						content '\e60b'
 						color rgba(black,.2)
 						font-family icono
 						font-size 1em
 				.lloc
-					color rgba(black,1)
+					color rgba(gray,1)
 					font-size .6em
 					font-weight 300
 					letter-spacing 1px
@@ -262,9 +256,37 @@ section
 					text-transform uppercase
 					p
 						&:before
-							color rgba(secundario,1)
+							color rgba(gray,1)
 							content '\e605'
 							font-family icono
+			.preExtender
+				box-shadow 0 0 10px rgba(black,.3)
+				height 25px
+				z-index 2
+				p
+					background rgba(white,1)
+					color rgba(black,.3)
+					font-size .5em
+					font-weight 400
+					text-transform uppercase
+					padding 5px 10px
+				.girar
+					transform rotateZ(-180deg)
+					-ms-transform rotateZ(-180deg)
+					-webkit-transform rotateZ(-180deg)
+					.extender
+						display block
+						text-align center
+						margin -30px 0 0 0
+						transform scale(3, .5)
+						-ms-transform scale(3, .5)
+						-webkit-transform scale(3, .5)
+						&:before
+							color rgba(black,.7)
+							content '\e604'
+							font-family icono
+			&:first-child
+				margin-top 10px
 	.llistaInvisible
 		display none
 	.anarInici
