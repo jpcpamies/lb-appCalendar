@@ -151,8 +151,8 @@ header
 				color rgba(secundario,1)
 				display block
 				font-size .9em
-				font-weight 400
-				// font-style italic
+				font-weight 900
+				font-style italic
 				margin .6em auto 0 auto
 				text-align center
 				width 200px
@@ -191,7 +191,7 @@ section
 		-webkit-animation animacionLlista .3s 1
 		padding .8em 0 1em 0
 		.event
-			margin 50px 10px
+			margin 30px 10px
 			.detallEvent
 				background rgba(white,1)
 				border-radius 15px 0 0 0 
@@ -208,13 +208,14 @@ section
 							color rgba(black,.4)
 							font-size .70em
 							font-weight 300
-							left 70px
+							left 60px
 							position relative
 							top -10px
 					.hora
-						color rgba(rosa,1)
+						color rgba(black,.8)
 						font-size .7em
-						font-weight 400
+						font-weight 900
+						font-style italic
 						letter-spacing 1px
 						position relative
 						top 7px
@@ -259,15 +260,26 @@ section
 							color rgba(gray,1)
 							content '\e605'
 							font-family icono
+			.previ
+				border-top 2px solid rosa
+				color rgba(rosa,1)
+			.festes
+				border-top 2px solid rosa
+				color rgba(rosa,1)
+			.posterior
+				border-top 2px solid #6e5dfa
+				color rgba(#6e5dfa,1)
+			.religios
+				border-top 2px solid #da8e00
+				color rgba(#da8e00,1)
 			.preExtender
 				height 35px
 				position relative
-				z-index 2
+				z-index 3
 				p
 					box-shadow 0 3px 7px rgba(black,.2)
+					border-radius 0 0 15px 0
 					background rgba(white,.8)
-					border-top 2px solid rosa
-					color rgba(rosa,1)
 					font-size .5em
 					font-style italic
 					font-weight 900
