@@ -11,8 +11,11 @@ section
 		top 60px
 .menu
 	background none
+	height auto
 	position relative 
 	z-index 4
+	animation animacion 1.2s 1
+	-webkit-animation animacion 1.2s 1
 	.botones
 		.botonMenu
 			a
@@ -55,33 +58,12 @@ section
 				position relative
 				top 20px
 				left 20px
-				animation animacionFacebook .5s 1
-				-webkit-animation animacionFacebook .5s 1
 			.twitter
 				position relative
 				top 60px
 				left -110px
-				animation animacionTwitter .5s 1
-				-webkit-animation animacionTwitter .5s 1
-@keyframes animacionFacebook
+@keyframes animacion
 	0%
 		opacity 0
-	25%
-		opacity .3
-	50%
-		opacity .6
-	75%
-		opacity .9
-	100%
-		opacity 1
-@keyframes animacionTwitter
-	0%
-		opacity 0
-	25%
-		opacity .3
-	50%
-		opacity .6
-	75%
-		opacity .9
 	100%
 		opacity 1
