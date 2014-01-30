@@ -44,296 +44,296 @@ header{width:100%;height:680px;overflow-x:hidden;overflow-y:hidden;}
 /* line 8 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\000038}}
-header .bgHeader{background: rgb(34,118,159);
-			background: -moz-linear-gradient(top,  rgba(34,118,159,1) 0%, rgba(119,179,206,1) 100%);
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,118,159,1)), color-stop(100%,rgba(119,179,206,1)));
-			background: -webkit-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: -o-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: -ms-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: linear-gradient(to bottom,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22769f', endColorstr='#77b3ce',GradientType=0 );height:445px;left:0;position:absolute;right:0;top:0;width:100%;z-index:-5;}
-background: rgb(34,118,159);
-			background: -moz-linear-gradient(top,  rgba(34,118,159,1) 0%, rgba(119,179,206,1) 100%);
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,118,159,1)), color-stop(100%,rgba(119,179,206,1)));
-			background: -webkit-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: -o-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: -ms-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			background: linear-gradient(to bottom,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22769f', endColorstr='#77b3ce',GradientType=0 );
+header .botonera{height:auto;overflow-x:auto;overflow-y:hidden;padding:20px 20px 0 10px;white-space:nowrap;width:100%;position:relative;z-index:15;}
 
 /* line 17 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000317}}
-header .bgHeader .montsia{background-image:url("../img/montsia.png");background-repeat:no-repeat;background-size:100% 140px;top:287px;height:350px;left:0;right:0;position:absolute;width:100%;z-index:5}
-
-/* line 28 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000328}}
-header .botonera{height:auto;overflow-x:auto;overflow-y:hidden;padding:20px 20px 0 10px;white-space:nowrap;width:100%;position:relative;z-index:15;}
-
-/* line 37 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000337}}
 header .botonera ul{text-align:center;}
 
-/* line 39 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 19 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000339}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000319}}
 header .botonera ul .dia{border-radius:50%;display:inline-block;height:65px;margin:0;position:relative;width:55px;}
 
-/* line 46 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 26 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000346}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000326}}
 header .botonera ul .dia p{border-radius:50%;color:#d1505f;height:35px;left:25%;font-weight:900;font-style:italic;line-height:1.6em;position:absolute;text-align:center;top:17px;width:35px;}
 
-/* line 58 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 38 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000358}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000338}}
 header .botonera ul .dia p:hover{background:#5a6171;color:#fff;font-weight:400}
 
-/* line 62 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 42 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000362}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000342}}
 header .botonera ul .dia .centrarMes{margin:0 0 0 .35em}
 
-/* line 64 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 44 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000364}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000344}}
 header .botonera ul .dia .nomDia{color:#000;font-size:.7em;font-weight:400;left:35%;position:absolute;top:-5px}
 
-/* line 73 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 53 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000373}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000353}}
 header .botonera ul .dia:last-child{margin:0 2em 0 0}
 
-/* line 75 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 55 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000375}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000355}}
 header .calendari{color:#fff;display:block;height:445px;margin:0 auto;padding:3em 0 0 0;position:relative;width:100%;z-index:10;}
 
-/* line 85 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 65 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000385}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000365}}
 header .calendari .dia{font-size:1em;font-weight:300;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,0.4);animation:animacionDia 3s 1;-webkit-animation:animacionDia 3s 1}
 
-/* line 92 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 72 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000392}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000372}}
 header .calendari .numero{font-size:4em;font-weight:100;margin:-.1em 0;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,0.4);animation:animacionNumero 3s 1;-webkit-animation:animacionNumero 3s 1}
 
-/* line 100 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 80 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003100}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000380}}
 header .calendari .mes{font-size:1em;font-weight:300;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,0.4);animation:animacionMes 3s 1;-webkit-animation:animacionMes 3s 1}
 
-/* line 107 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 87 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003107}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000387}}
 header .eventActual{color:#fff;display:block;font-size:.9em;font-weight:100;height:auto;padding:.7em 1em 1.2em 1em;position:relative;z-index:5;}
 
-/* line 116 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 96 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003116}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000396}}
 header .eventActual .contingutEventActual{animation:animacionLlista 3s 1;-webkit-animation:animacionLlista 3s 1;}
 
-/* line 119 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 99 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003119}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\0000399}}
 header .eventActual .contingutEventActual .event{color:#5a6171;display:block;font-size:.9em;font-weight:400;letter-spacing:.055em;line-height:1.2em;margin:.7em auto 0 auto;text-align:center;width:90%;}
 
-/* line 131 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 111 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003131}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003111}}
 header .eventActual .contingutEventActual .event .lloc{color:#808080;font-size:.7em;letter-spacing:1px;margin:.5em 0 0 0;text-transform:uppercase;}
 
-/* line 137 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 117 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003137}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003117}}
 
-/* line 138 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 118 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003138}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003118}}
 header .eventActual .contingutEventActual .event .lloc p:before{content:'\e600';font-family:icono;margin:0 5px 0 0}
 
-/* line 142 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 122 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003142}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003122}}
 header .eventActual .contingutEventActual .hora{color:#5a6171;display:block;font-size:.9em;font-weight:900;font-style:italic;margin:.6em auto 0 auto;text-align:center;width:200px}
 
-/* line 154 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 134 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003154}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003134}}
 header .eventActual .titol{border-radius:10px;color:#000;font-size:1em;font-weight:400;left:10px;top:20px;padding:0 .7em;position:absolute;}
 
-/* line 166 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 146 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003166}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003146}}
 header .eventActual .titol span{position:absolute;left:50px;top:0;transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg);}
 
-/* line 173 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 153 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003173}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003153}}
 header .eventActual .titol span:after{content:'\e603';font-family:icono}
+
+/* line 156 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003156}}
+section{margin:0 0 60px 0;display:block;position:relative;overflow-x:hidden;}
+
+/* line 161 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003161}}
+section .llistaVisible{animation:animacionLlista .3s 1;-webkit-animation:animacionLlista .3s 1;padding:.8em 0 1em 0;}
+
+/* line 165 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003165}}
+section .llistaVisible .event{margin:20px 10px;}
+
+/* line 167 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003167}}
+section .llistaVisible .event .detallEvent{background:rgba(255,255,255,0.4);border-radius:15px 15px 0 0;margin:.5em 0 0 0;display:block;height:30px;position:relative;z-index:1;}
 
 /* line 176 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003176}}
-section{margin:0 0 60px 0;display:block;position:relative;overflow-x:hidden;}
 
-/* line 181 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 177 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003181}}
-section .llistaVisible{animation:animacionLlista .3s 1;-webkit-animation:animacionLlista .3s 1;padding:.8em 0 1em 0;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003177}}
+
+/* line 178 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003178}}
+section .llistaVisible .event .detallEvent .quan .data p{color:rgba(0,0,0,0.3);font-size:.7em;font-weight:300;left:43%;position:relative;top:-10px}
 
 /* line 185 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003185}}
-section .llistaVisible .event{margin:20px 10px;}
+section .llistaVisible .event .detallEvent .quan .hora{color:rgba(128,128,128,0.8);font-size:.65em;font-weight:900;font-style:italic;letter-spacing:0;position:relative;top:7px;left:20px;}
 
-/* line 187 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 194 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003187}}
-section .llistaVisible .event .detallEvent{background:rgba(255,255,255,0.4);border-radius:15px 15px 0 0;margin:.5em 0 0 0;display:block;height:30px;position:relative;z-index:1;}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003194}}
 
-/* line 196 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 195 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003196}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003195}}
+section .llistaVisible .event .detallEvent .quan .hora p:after{content:'h'}
 
 /* line 197 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003197}}
+section .llistaVisible .event .Event{background:rgba(255,255,255,0.9);color:rgba(0,0,0,0.8);display:block;font-size:.9em;font-weight:300;line-height:1.3em;padding:15px 25px 32px 20px;position:relative;z-index:2;}
 
-/* line 198 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 208 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003198}}
-section .llistaVisible .event .detallEvent .quan .data p{color:rgba(0,0,0,0.3);font-size:.7em;font-weight:300;left:43%;position:relative;top:-10px}
-
-/* line 205 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003205}}
-section .llistaVisible .event .detallEvent .quan .hora{color:rgba(128,128,128,0.8);font-size:.65em;font-weight:900;font-style:italic;letter-spacing:0;position:relative;top:7px;left:20px;}
-
-/* line 214 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003214}}
-
-/* line 215 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003215}}
-section .llistaVisible .event .detallEvent .quan .hora p:after{content:'h'}
-
-/* line 217 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003217}}
-section .llistaVisible .event .Event{background:rgba(255,255,255,0.8);color:rgba(0,0,0,0.8);display:block;font-size:.9em;font-weight:300;line-height:1.3em;padding:15px 25px 32px 20px;position:relative;z-index:2;}
-
-/* line 228 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003228}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003208}}
 section .llistaVisible .event .Event p{font-weight:bolder}
+
+/* line 210 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003210}}
+section .llistaVisible .event .Event .detall{color:rgba(90,97,113,0.6);display:none;font-size:.8em;font-weight:300;line-height:1.3em;margin:10px 20px 20px 0;width:102%;}
+
+/* line 218 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003218}}
+section .llistaVisible .event .Event .detall:after{content:'\e60b';color:rgba(0,0,0,0.2);font-family:icono;font-size:1em}
+
+/* line 223 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003223}}
+section .llistaVisible .event .Event .lloc{color:rgba(128,128,128,0.8);font-size:.6em;font-weight:300;letter-spacing:1px;margin:2px 1em 0 0;text-transform:uppercase;}
 
 /* line 230 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003230}}
-section .llistaVisible .event .Event .detall{color:rgba(90,97,113,0.6);display:none;font-size:.8em;font-weight:300;line-height:1.3em;margin:10px 20px 20px 0;width:102%;}
 
-/* line 238 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 231 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003238}}
-section .llistaVisible .event .Event .detall:after{content:'\e60b';color:rgba(0,0,0,0.2);font-family:icono;font-size:1em}
-
-/* line 243 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003243}}
-section .llistaVisible .event .Event .lloc{color:rgba(128,128,128,0.8);font-size:.6em;font-weight:300;letter-spacing:1px;margin:2px 1em 0 0;text-transform:uppercase;}
-
-/* line 250 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003250}}
-
-/* line 251 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003251}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003231}}
 section .llistaVisible .event .Event .lloc p:before{color:rgba(128,128,128,0.8);content:'\e600';font-family:icono;margin:0 5px 0 0}
 
-/* line 256 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 236 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003256}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003236}}
 section .llistaVisible .event .previ{border-top:1px solid #08849b;color:#08849b}
 
-/* line 259 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 239 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003259}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003239}}
 section .llistaVisible .event .festes{border-top:1px solid #d1505f;color:#d1505f}
+
+/* line 242 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003242}}
+section .llistaVisible .event .posterior{border-top:1px solid #008b63;color:#008b63}
+
+/* line 245 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003245}}
+section .llistaVisible .event .religios{border-top:1px solid #da8e00;color:#da8e00}
+
+/* line 248 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003248}}
+section .llistaVisible .event .preExtender{height:35px;position:relative;z-index:3;}
+
+/* line 252 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003252}}
+section .llistaVisible .event .preExtender p{box-shadow:0 2px 0 rgba(0,0,0,0.18);border-radius:0 0 15px 0;background:rgba(255,255,255,0.9);font-size:.6em;font-style:italic;font-weight:900;margin:6px 0 0 0;padding:10px 10px;text-transform:uppercase}
 
 /* line 262 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003262}}
-section .llistaVisible .event .posterior{border-top:1px solid #008b63;color:#008b63}
 
-/* line 265 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 263 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003265}}
-section .llistaVisible .event .religios{border-top:1px solid #da8e00;color:#da8e00}
-
-/* line 268 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003268}}
-section .llistaVisible .event .preExtender{height:35px;position:relative;z-index:3;}
-
-/* line 272 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003272}}
-section .llistaVisible .event .preExtender p{box-shadow:0 2px 0 rgba(0,0,0,0.18);border-radius:0 0 15px 0;background:rgba(255,255,255,0.8);font-size:.6em;font-style:italic;font-weight:900;margin:6px 0 0 0;padding:10px 10px;text-transform:uppercase}
-
-/* line 282 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003282}}
-
-/* line 283 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003283}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003263}}
 section .llistaVisible .event .preExtender .girar .extender{display:block;text-align:center;margin:-30px 0 0 0;transform:scale(2.5,.8);-ms-transform:scale(2.5,.8);-webkit-transform:scale(2.5,.8);}
 
-/* line 290 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 270 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003290}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003270}}
 section .llistaVisible .event .preExtender .girar .extender:before{color:rgba(0,0,0,0.1);content:'\e603';font-family:icono}
 
-/* line 294 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 274 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003294}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003274}}
 section .llistaVisible .event:first-child{margin-top:10px}
 
-/* line 296 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 276 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003296}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003276}}
 section .llistaInvisible{display:none}
 
-/* line 298 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 278 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003298}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003278}}
 section .anarInici{display:block;text-align:center;}
 
-/* line 301 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 281 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003301}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003281}}
 section .anarInici .boto{background:rgba(0,0,0,0.1);border-radius:50%;color:rgba(255,255,255,0.5);display:inline-block;height:50px;line-height:2.8em;margin:1em 0 0 0;width:50px;transform:rotateZ(180deg);-ms-transform:rotateZ(180deg);-webkit-transform:rotateZ(180deg);}
 
-/* line 313 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 293 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003313}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003293}}
 section .anarInici .boto:after{content:'\e603';font-family:icono;font-size:1.2em}
 
-/* line 317 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 297 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003317}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003297}}
 .bg{background:#9fc1e0;height:100%;left:0;position:fixed;top:0;width:100%;z-index:-50}
 
-/* line 325 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+/* line 305 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003325}}
-.bgEvento{background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.2);bottom:0;height:255px;left:0;position:absolute;right:0;top:425px;z-index:5}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003305}}
+.bgEvento{background:#fff;box-shadow:0 2px 0 rgba(0,0,0,0.2);bottom:0;height:255px;left:0;position:absolute;right:0;top:425px;z-index:5}
+
+/* line 315 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003315}}
+.bgHeader{background: rgb(34,118,159);
+		background: -moz-linear-gradient(top,  rgba(34,118,159,1) 0%, rgba(119,179,206,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,118,159,1)), color-stop(100%,rgba(119,179,206,1)));
+		background: -webkit-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: -o-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: linear-gradient(to bottom,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22769f', endColorstr='#77b3ce',GradientType=0 );height:445px;left:0;position:absolute;right:0;top:0;width:100%;z-index:0;}
+background: rgb(34,118,159);
+		background: -moz-linear-gradient(top,  rgba(34,118,159,1) 0%, rgba(119,179,206,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,118,159,1)), color-stop(100%,rgba(119,179,206,1)));
+		background: -webkit-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: -o-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		background: linear-gradient(to bottom,  rgba(34,118,159,1) 0%,rgba(119,179,206,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22769f', endColorstr='#77b3ce',GradientType=0 );
+
+/* line 324 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003324}}
+.bgHeader .montsia{background-image:url("../img/montsia.png");background-repeat:no-repeat;background-size:100% 140px;top:288px;height:350px;left:0;right:0;position:absolute;width:100%;z-index:0}
 
 /* line 335 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
