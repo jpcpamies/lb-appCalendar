@@ -2,8 +2,7 @@
 header
 	width 100%
 	height 680px
-	overflow-x hidden
-	overflow-y hidden
+	overflow hidden
 	.botonera
 		height auto
 		overflow-x auto
@@ -43,16 +42,13 @@ header
 				.nomDia
 					color rgba(black,1)
 					font-size .7em
-					// font-style italic
 					font-weight 400
 					left 35%
 					position absolute
-					// letter-spacing -1px
 					top -5px
 				&:last-child
 					margin 0 2em 0 0
 	.calendari
-		// background rgba(red,.3)
 		color white
 		display block
 		height 445px
@@ -153,23 +149,22 @@ header
 					content '\e603'
 					font-family icono
 section
-	margin 0 0 60px 0
 	display block
-	position relative
+	margin 0 0 60px 0
 	overflow-x hidden
+	position relative
 	.llistaVisible
-		animation animacionLlista .3s 1
 		-webkit-animation animacionLlista .3s 1
+		animation animacionLlista .3s 1
 		padding .8em 0 1em 0
 		.event
 			margin 20px 10px
 			.detallEvent
 				background rgba(white,.4)
 				border-radius 15px 15px 0 0 
-				// box-shadow 0 0 7px rgba(black,.12)
-				margin .5em 0 0 0 
 				display block
 				height 30px
+				margin .5em 0 0 0 
 				position relative
 				z-index 1
 				.quan
@@ -184,18 +179,17 @@ section
 					.hora
 						color rgba(gray,.8)
 						font-size .65em
-						font-weight 900
 						font-style italic
+						font-weight 900
+						left 20px
 						letter-spacing 0px
 						position relative
 						top 7px
-						left 20px
 						p
 							&:after
 								content 'h'
 			.Event
 				background rgba(white,.9)
-				// box-shadow 0 0 7px rgba(black,.18)
 				color rgba(black,.8)
 				display block
 				font-size .9em
@@ -215,8 +209,8 @@ section
 					margin 10px 20px 20px 0 
 					width 102%
 					&:after
-						content '\e60b'
 						color rgba(black,.2)
+						content '\e60b'
 						font-family icono
 						font-size 1em
 				.lloc
@@ -249,9 +243,9 @@ section
 				position relative
 				z-index 3
 				p
-					box-shadow 0 2px 0 rgba(black,.18)
-					border-radius 0 0 15px 0
 					background rgba(white,.9)
+					border-radius 0 0 15px 0
+					box-shadow 0 2px 0 rgba(black,.18)
 					font-size .60em
 					font-style italic
 					font-weight 900
@@ -261,8 +255,8 @@ section
 				.girar
 					.extender
 						display block
-						text-align center
 						margin -30px 0 0 0
+						text-align center
 						transform scale(2.5, .8)
 						-ms-transform scale(2.5, .8)
 						-webkit-transform scale(2.5, .8)
@@ -303,8 +297,8 @@ section
 	z-index -50
 .bgEvento
 	background rgba(white,1)
-	box-shadow 0 2px 0 rgba(black,.2)
 	bottom 0
+	box-shadow 0 2px 0 rgba(black,.2)
 	height 255px
 	left 0 
 	position absolute
@@ -333,24 +327,23 @@ section
 		background-image url(../img/montsia.png)
 		background-repeat no-repeat
 		background-size 100% 140px
-		top 288px
 		height 350px
 		left 0
-		right 0
 		position absolute
+		right 0
+		top 288px
 		width 100%
 		z-index 0
 .efectos
 	height 1200px
-	width 100%
-	overflow-x hidden
-	overflow-y hidden
+	overflow hidden
 	position absolute
+	width 100%
 	.dia
 		.moverDestellos
+			left 50px
 			position absolute
 			top 30px
-			left 50px
 			animation animacionMoverDestellos 20s infinite
 			-webkit-animation animacionMoverDestellos 20s infinite
 			.destellos
@@ -417,36 +410,36 @@ section
 					-webkit-animation animacionDestello5 30s infinite
 					&:before 
 						content ''
+						height 0
+						left 0
 						position absolute
 						top -25px
-						left 0
 						width 0
-						height 0
 						border-left 50px solid transparent
 						border-right 50px solid transparent
 						border-bottom 25px solid rgba(white,.1)
 					&:after 
-						content ''
-						position absolute
 						bottom -25px
-						left 0
-						width 0
+						content ''
 						height 0
+						left 0
+						position absolute
+						width 0
 						border-left 50px solid transparent
 						border-right 50px solid transparent
 						border-top 25px solid rgba(white,.1)
 		.nubes
 			height 350px
-			width 100%
 			position relative
+			width 100%
 			.nube1
 				background-image url(../img/nube1.png)
 				background-repeat no-repeat
 				background-size 250px auto
 				height 188px
+				position absolute
 				right -30%
 				top 120px
-				position absolute
 				width 292px
 				animation animacionNube1 190s infinite
 				-webkit-animation animacionNube1 190s infinite
@@ -465,25 +458,24 @@ section
 				background-repeat no-repeat
 				background-size 84px auto
 				height 115px
-				top 70px
 				left 280px
 				position absolute
+				top 70px
 				width 158px
 				animation animacionNube3 280s infinite
 				-webkit-animation animacionNube3 280s infinite
 		.rayos
 			height 1200px
-			width 100%
-			overflow-x hidden
-			overflow-y hidden
+			overflow hidden
 			position absolute
 			top 0
+			width 100%
 			z-index 0
 			.rayo1 
-				border-top 5px solid transparent
 				border-bottom 5px solid transparent
 				border-left 400px solid white
 				border-right 0px solid transparent
+				border-top 5px solid transparent
 				left -100px
 				position absolute
 				top 100px
@@ -494,10 +486,10 @@ section
 				animation animacionRayo1 8s infinite
 				-webkit-animation animacionRayo1 8s infinite
 			.rayo2 
-				border-top 3px solid transparent
 				border-bottom 3px solid transparent
 				border-left 250px solid white
 				border-right 0px solid transparent
+				border-top 3px solid transparent
 				left -100px
 				position absolute
 				top 100px
@@ -508,10 +500,10 @@ section
 				animation animacionRayo2 6s infinite
 				-webkit-animation animacionRayo2 6s infinite
 			.rayo3 
-				border-top 3px solid transparent
 				border-bottom 3px solid transparent
 				border-left 220px solid white
 				border-right 0px solid transparent
+				border-top 3px solid transparent
 				left 0px
 				position absolute
 				top 5px
@@ -522,10 +514,10 @@ section
 				animation animacionRayo3 10s infinite
 				-webkit-animation animacionRayo3 10s infinite
 			.rayo4
-				border-top 30px solid transparent
 				border-bottom 10px solid transparent
 				border-left 2000px solid white
 				border-right 0px solid transparent
+				border-top 30px solid transparent
 				left -600px
 				position absolute
 				top 690px
@@ -536,10 +528,10 @@ section
 				animation animacionRayo4 5s infinite
 				-webkit-animation animacionRayo4 5s infinite
 			.rayo4a
-				border-top 65px solid transparent
 				border-bottom 50px solid transparent
 				border-left 2000px solid white
 				border-right 0px solid transparent
+				border-top 65px solid transparent
 				left -580px
 				position absolute
 				top 690px
@@ -551,10 +543,10 @@ section
 				animation animacionRayo4 5s infinite
 				-webkit-animation animacionRayo4 5s infinite
 			.rayo5
-				border-top 10px solid transparent
 				border-bottom 20px solid transparent
 				border-left 1900px solid white
 				border-right 0px solid transparent
+				border-top 10px solid transparent
 				left -798px
 				position absolute
 				top 800px
@@ -565,10 +557,10 @@ section
 				animation animacionRayo5 8s infinite
 				-webkit-animation animacionRayo5 8s infinite
 			.rayo5a
-				border-top 120px solid transparent
 				border-bottom 20px solid transparent
 				border-left 1900px solid rgba(white,1)
 				border-right 0px solid transparent
+				border-top 120px solid transparent
 				left -790px
 				position absolute
 				top 800px
@@ -579,10 +571,10 @@ section
 				animation animacionRayo5 8s infinite
 				-webkit-animation animacionRayo5 8s infinite
 			.rayo6
-				border-top 10px solid transparent
 				border-bottom 3px solid transparent
 				border-left 2000px solid white
 				border-right 0px solid transparent
+				border-top 10px solid transparent
 				left -870px
 				position absolute
 				top 350px
@@ -593,10 +585,10 @@ section
 				animation animacionRayo6 9s infinite
 				-webkit-animation animacionRayo6 9s infinite
 			.rayo6a
-				border-top 10px solid transparent
 				border-bottom 3px solid transparent
 				border-left 1000px solid white
 				border-right 0px solid transparent
+				border-top 10px solid transparent
 				left -150px
 				position absolute
 				top 245px
@@ -607,10 +599,10 @@ section
 				animation animacionRayo6 11s infinite
 				-webkit-animation animacionRayo6 11s infinite
 			.rayo7
-				border-top 10px solid transparent
 				border-bottom 3px solid transparent
 				border-left 2500px solid rgba(white,.7)
 				border-right 0px solid transparent
+				border-top 10px solid transparent
 				left -1220px
 				position absolute
 				top 350px
@@ -621,10 +613,10 @@ section
 				animation animacionRayo6 6s infinite
 				-webkit-animation animacionRayo6 6s infinite
 			.rayo8
-				border-top 60px solid transparent
 				border-bottom 50px solid transparent
 				border-left 1200px solid rgba(white,.7)
 				border-right 0px solid transparent
+				border-top 60px solid transparent
 				left -549px
 				position absolute
 				top 490px
@@ -643,6 +635,8 @@ section
 			top -150px
 			width 350px
 			z-index 0
+.facebook
+.invisible
 .menu
 	background secundario
 	border-radius 5px
@@ -666,7 +660,6 @@ section
 				color white
 				text-decoration none
 			.compartir
-				// color rgba(#283148,1)
 				font-size 1.2em
 				&:after
 					content '\e602'
@@ -675,7 +668,6 @@ section
 				&:active
 					color rgba(white,.3)
 			.mapa
-				// color rgba(#283148,1)
 				font-size 1.15em
 				&:after
 					content '\e606'
@@ -737,28 +729,21 @@ section
 			.twitter
 				display block
 				margin 0 0 0 1.5em
-.facebook
-.invisible
 .twitter
 	display none
 .patron
-	position fixed
-	top 0
-	bottom 0
-	right 0
-	left 0
-	width 100%
-	height 100%
 	background-image url(../img/patronBlanco.png)
 	background-repeat repeat
 	background-size 200px auto
-	z-index -5
+	bottom 0
+	height 100%
+	left 0
 	opacity .3
-@keyframes animacionBoto 
-	0% 
-		opacity 0
-	100% 
-		opacity 1
+	position fixed
+	right 0
+	top 0
+	width 100%
+	z-index -5
 @keyframes animacionDestellos 
 	0%
 		transform rotateZ(-18deg)
