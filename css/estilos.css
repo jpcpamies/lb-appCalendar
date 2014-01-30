@@ -206,7 +206,7 @@ section .llistaVisible .event .detallEvent{background:#fff;border-radius:15px 0 
 /* line 198 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp1\.styl}line{font-family:\00003198}}
-section .llistaVisible .event .detallEvent .quan .data p{color:rgba(0,0,0,0.5);font-size:.7em;font-weight:300;left:70px;position:relative;top:-10px}
+section .llistaVisible .event .detallEvent .quan .data p{color:rgba(0,0,0,0.4);font-size:.7em;font-weight:300;left:70px;position:relative;top:-10px}
 
 /* line 205 : /Users/jordiimac/Documents/appCalendar/css/bp1.styl */
 
