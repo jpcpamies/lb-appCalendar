@@ -51,10 +51,34 @@ section
 		.botonSocial
 			.facebook
 				position relative
-				top .5em
 				left 20px
-				
+				animation animacionFacebook .5s 1
+				-webkit-animation animacionFacebook .5s 1
 			.twitter
 				position relative
-				top 2.5em
+				top 40px
 				left -110px
+				animation animacionTwitter .5s 1
+				-webkit-animation animacionTwitter .5s 1
+@keyframes animacionFacebook
+	0%
+		opacity 0
+	25%
+		opacity .3
+	50%
+		opacity .6
+	75%
+		opacity .9
+	100%
+		opacity 1
+@keyframes animacionTwitter
+	0%
+		opacity 0
+	25%
+		opacity .3
+	50%
+		opacity .6
+	75%
+		opacity .9
+	100%
+		opacity 1

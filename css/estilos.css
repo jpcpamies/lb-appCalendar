@@ -1618,10 +1618,100 @@ section .llistaVisible{display:block;margin:0 auto;max-width:680px}
 /* line 52 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000352}}
-.menu .social .botonSocial .facebook{position:relative;top:.5em;left:20px}
+.menu .social .botonSocial .facebook{position:relative;left:20px;animation:animacionFacebook .5s 1;-webkit-animation:animacionFacebook .5s 1}
 
 /* line 57 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000357}}
-.menu .social .botonSocial .twitter{position:relative;top:2.5em;left:-110px}
+.menu .social .botonSocial .twitter{position:relative;top:40px;left:-110px;animation:animacionTwitter .5s 1;-webkit-animation:animacionTwitter .5s 1}
+
+/* line 63 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000363}}
+@-moz-keyframes animacionFacebook{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
 }
+/* line 63 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000363}}
+@-webkit-keyframes animacionFacebook{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 63 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000363}}
+@-o-keyframes animacionFacebook{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 63 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000363}}
+@-ms-keyframes animacionFacebook{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 63 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000363}}
+@keyframes animacionFacebook{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 74 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000374}}
+@-moz-keyframes animacionTwitter{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 74 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000374}}
+@-webkit-keyframes animacionTwitter{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 74 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000374}}
+@-o-keyframes animacionTwitter{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 74 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000374}}
+@-ms-keyframes animacionTwitter{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}
+/* line 74 : /Users/jordiimac/Documents/appCalendar/css/bp4.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/jordiimac\/Documents\/appCalendar\/css\/bp4\.styl}line{font-family:\0000374}}
+@keyframes animacionTwitter{0%{opacity:0}
+25%{opacity:.3}
+50%{opacity:.6}
+75%{opacity:.9}
+100%{opacity:1}
+}}
